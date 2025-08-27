@@ -6,9 +6,9 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain.chat_models import init_chat_model
 
 # Load on Streamlit Cloud, set in app settings
-st.write("GOOGLE_API_KEY", st.secrets["GOOGLE_API_KEY"])
-st.write("LANGCHAIN_TRACING_V2", st.secrets["LANGCHAIN_TRACING_V2"])
-st.write("LANGCHAIN_API_KEY", st.secrets["LANGCHAIN_API_KEY"])
+# st.write("GOOGLE_API_KEY", st.secrets["GOOGLE_API_KEY"])
+# st.write("LANGCHAIN_TRACING_V2", st.secrets["LANGCHAIN_TRACING_V2"])
+# st.write("LANGCHAIN_API_KEY", st.secrets["LANGCHAIN_API_KEY"])
 
 
 # Abhishek-only guard: constrain domain + refuse otherwise
